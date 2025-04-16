@@ -37,6 +37,16 @@ const projects: Project[] = [
     liveUrl: "https://kdem-b32a7.web.app/",
     featured: true,
   },
+  {
+    title: "Stash",
+    description:
+      "The Stash App is a modern web application designed for users to effortlessly manage and showcase their photo collections. Inspired by the work of Theo from T3.gg, this app leverages a robust tech stack that includes TypeScript, Next.js, MongoDB, Clerk for authentication, and Uploadthing (which is also created by theo) for file uploads.",
+    image: "/Stash/2.png",
+    technologies: ["Next.js", "Node.js", "MongoDB", "Clerk"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://stash-six.vercel.app/",
+    featured: true,
+  },
 ]
 
 export function Projects() {
