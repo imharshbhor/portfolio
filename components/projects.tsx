@@ -40,7 +40,7 @@ const projects: Project[] = [
         description:
             "Jobsy is a job application tracker that provides users with analytics and insights based on their job data to optimize their job search. It also features a chatbot to assist users in their job hunting journey.",
         image: "/Jobsy/1.png",
-        technologies: ["Next.js", "Postgres", "Supabase", "OpenAI"],
+        technologies: ["Next.js", "Supabase", "OpenAI", "Docker"],
         githubUrl: "https://github.com",
         liveUrl: "https://jobsy-hazel.vercel.app/",
         featured: true,
