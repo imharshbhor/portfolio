@@ -16,13 +16,23 @@ interface Job {
 const jobs: Job[] = [
     {
         title: "Developer",
+        company: "Evolware",
+        companyUrl: "https://evolware.in/",
+        date: "April 2025 - Present",
+        description: [
+            "Collaborating with senior developers on state government projects such as Midorihealth.",
+            "Gaining proficiency in Azure cloud services, React.js, Next.js through hands-on project work.",
+        ],
+        technologies: ["React.js", "Node.js", "Azure", "Next.js"],
+    },
+    {
+        title: "Developer",
         company: "Karnataka Digital Economy Mission (KDEM)",
         companyUrl: "https://karnatakadigital.in/",
         date: "July 2024 - March 2025",
         description: [
             "Developed an admin panel for the Karnataka Digital Economy Mission (KDEM) to manage the incubation process.",
             "Contributing to the Karnataka Startup Ecosystem Impact Management Portal to measure the impact of Innovation Hubs supported by KDEM.",
-            "Implementing features to track and visualize startup ecosystem metrics.",
         ],
         technologies: ["Vue.js", "Node.js", "Azure", "Firebase", "MongoDB"],
     },
@@ -33,7 +43,6 @@ const jobs: Job[] = [
         date: "October 2023 - March 2024",
         description: [
             "Developed a comprehensive dashboard for ICAP using Node.js and React.js, integrating real-time mutual fund data from the AMFI website.",
-            "Created an interactive medical admin panel for Manipur State, processing data from a medical device API and visualizing interactive patient information.",
             "Gained proficiency in Node.js, React.js, Next.js, and AWS EC2 instances through hands-on project work.",
         ],
         technologies: ["React.js", "Node.js", "Next.js", "AWS EC2", "MongoDB"],

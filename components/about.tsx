@@ -17,10 +17,9 @@ export function About() {
         "Node.js",
         "Express",
         "MongoDB",
-        "Postgres",
+        "MySQL",
         "Docker",
-        "AWS EC2",
-        "Azure VM",
+        "Azure",
         "Firebase",
         "Tailwind CSS",
     ]

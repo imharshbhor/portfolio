@@ -26,7 +26,7 @@ const projects: Project[] = [
         featured: true,
     },
     {
-        title: "HealthTrack",
+        title: "Midorihealth",
         description:
             "A medical dashboard created using Next.js to display patient data fetched from a VoCare device API. Implemented real-time data updates and filtering capabilities for efficient information access.",
         image: "/HealthTrack/1.png",
